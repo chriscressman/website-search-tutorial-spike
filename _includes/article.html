@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{title}} | Example blog</title>
+  </head>
+  <body>
+    <header>
+      <p>Example blog</p>
+    </header>
+    <main>
+      <h1>{{title}}</h1>
+      {{content}}
+    </main>
+    <nav>
+      <ul>
+      {%- for article in collections.all -%}
+        <li>
+          <a href="{{article.url}}">{{article.url}}</a>
+        </li>
+      {%- endfor -%}
+      </ul>
+    </nav>
+    <footer>
+      <p>The footer...</p>
+    </footer>
+  </body>
+</html>
