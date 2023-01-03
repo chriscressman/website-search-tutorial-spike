@@ -1,5 +1,6 @@
 ---
 title: Foo
+date: Last Modified
 layout: article
 ---
 

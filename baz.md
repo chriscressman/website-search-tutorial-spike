@@ -1,5 +1,6 @@
 ---
 title: Baz
+date: Last Modified
 layout: article
 ---
 

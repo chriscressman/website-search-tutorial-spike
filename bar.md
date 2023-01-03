@@ -1,5 +1,6 @@
 ---
 title: Bar
+date: Last Modified
 layout: article
 ---
 
